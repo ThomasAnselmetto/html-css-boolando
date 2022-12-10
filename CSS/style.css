@@ -84,7 +84,6 @@ header {
     width: 100%;
     min-width: 75%;
     height: 500px;
-    background-color: green;
     display: flex;
 }
 
@@ -97,10 +96,13 @@ header {
 /* column */
 .column {
     position: relative;
-    height: 500px;
+    height: 510px;
     width: calc(100% / 3);
-    background-color: lightblue;
     margin: 0 10px;
+}
+
+.immagini {
+    margin-bottom: 10px;
 }
 
 .front-image {
@@ -122,6 +124,7 @@ header {
 
 .product-description {
     position: absolute;
+    min-width: 200px;
     bottom: 0;
 
 }
@@ -139,4 +142,31 @@ header {
 
 .discount-price {
     text-decoration: line-through;
+}
+
+.upper-footer {
+    background-color: #1A1A1A;
+    color: white;
+    height: 150px;
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+}
+
+.divisore {
+    width: 100%;
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.bottom-footer {
+    background-color: #21201D;
+    height: 500px;
+}
+
+.link-ul {
+    display: flex;
+
 }
