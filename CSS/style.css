@@ -44,6 +44,7 @@ header {
 .main-header {
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 
 }
 
@@ -66,14 +67,13 @@ header {
 
 .link-list,
 .right-header {
-    margin: 15px 20px;
+    align-items: center;
     gap: 10px;
 }
 
 .center-header {
     flex-grow: 1;
     justify-content: center;
-    align-items: center;
 }
 
 
@@ -170,7 +170,7 @@ div>span:hover {
 }
 
 .divisore {
-    width: 100%;
+    width: 85%;
     height: 150px;
     align-items: center;
     display: flex;
@@ -191,11 +191,5 @@ div>span:hover {
 
 i,
 li {
-    margin: 5px 5px;
-}
-
-h3 {
-    margin-left: 5px;
-
-    ;
+    margin: 7px 7px 7px 0;
 }
