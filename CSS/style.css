@@ -83,30 +83,27 @@ header {
 .row {
     width: 100%;
     min-width: 75%;
-    height: 500px;
     display: flex;
+    margin-top: 20px;
 }
 
-.up {
-    margin: 20px 0;
-}
 
 
 
 /* column */
 .column {
     position: relative;
-    height: 510px;
     width: calc(100% / 3);
-    margin: 0 10px;
+    margin: 0 30px;
 }
 
 .immagini {
-    margin-bottom: 10px;
+    height: 400px;
+    position: relative;
 }
 
 .front-image {
-    position: relative;
+    position: absolute;
     z-index: 1;
 
 
@@ -119,15 +116,35 @@ header {
 .under-image {
     position: absolute;
     left: 0;
+}
 
+.heart {
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 10px;
+    padding: 5px;
+}
+
+div>span:hover {
+    color: red;
 }
 
 .product-description {
-    position: absolute;
     min-width: 200px;
-    bottom: 0;
-
 }
+
+.discount-percentage {
+    background-color: red;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+}
+
+
 
 /* elements */
 
@@ -154,7 +171,8 @@ header {
 
 .divisore {
     width: 100%;
-    line-height: 2;
+    height: 150px;
+    align-items: center;
     display: flex;
     justify-content: space-between;
 
@@ -169,4 +187,15 @@ header {
 .link-ul {
     display: flex;
 
+}
+
+i,
+li {
+    margin: 5px 5px;
+}
+
+h3 {
+    margin-left: 5px;
+
+    ;
 }
