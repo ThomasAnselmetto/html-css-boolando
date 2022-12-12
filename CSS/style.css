@@ -36,6 +36,9 @@ ul {
 /* header */
 
 header {
+    width: 100vw;
+    position: fixed;
+    z-index: 4;
     background-color: #FF6900;
     height: 50px;
     color: white;
